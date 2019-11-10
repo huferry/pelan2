@@ -1,0 +1,22 @@
+{
+  "name": "pelan2",
+  "version": "1.0.0",
+  "description": "Fetch the actual speed traps information from Flitsmeister",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ferry Utomo",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huferry/pelan2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/huferry/pelan2/issues"
+  },
+  "homepage": "https://github.com/huferry/pelan2#readme"
+}
