@@ -59,10 +59,6 @@ async function getSpeedTraps(options) {
             })
 }
 
-(async () => {
-    const speedtraps = await getSpeedTraps({
-        roadLetter: 'A'
-    })
-    console.log(speedtraps[0].geometry.coordinates)
-    console.log(speedtraps, `\nTotal: ${speedtraps.length}`)
-})()
+module.exports = {
+    getSpeedTraps
+}
